@@ -1,6 +1,6 @@
 # Default values for guestbook
 replicaCount: 1
-
+revisionHistoryLimit: 0
 image:
   repository: nginx
   pullPolicy: IfNotPresent
